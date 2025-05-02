@@ -5,7 +5,17 @@ FROM node:18-alpine AS builder
 WORKDIR /app
 
 # Install build dependencies for Gatsby and Node.js
-RUN apk add --no-cache python3 make g++ bash git
+RUN apk add --no-cache \
+    python3 \
+    make \
+    g++ \
+    bash \
+    git \
+    autoconf \
+    automake \
+    libtool \
+    nasm \
+    libjpeg-turbo-dev
 
 # Copy package.json and yarn.lock to the working directory
 COPY package.json yarn.lock ./
