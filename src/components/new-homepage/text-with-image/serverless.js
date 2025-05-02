@@ -34,7 +34,7 @@ const Serverless = () => {
         <Background>
             <TextWithImage
                 isLeftImage
-                image={image.file.childImageSharp.fluid}
+                image={image.file?.childImageSharp.fluid}
                 subtitle="Smart Query Engine"
                 title={
                     <>

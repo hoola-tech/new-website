@@ -33,7 +33,7 @@ const SelfHosted = () => {
     return (
         <Background>
             <TextWithImage
-                image={image.file.childImageSharp.fluid}
+                image={image.file?.childImageSharp.fluid}
                 subtitle="Unified Data Environment"
                 title={
                     <TextContainer>

@@ -1,10 +1,15 @@
 import React from "react";
-import styled from "react-emotion";
+
+import {
+    Link,
+    navigate,
+} from "gatsby";
 import Img from "gatsby-image";
-import { navigate, Link } from "gatsby";
+import styled from "react-emotion";
+
+import mq from "../../utils/breakpoints";
 // utils
 import theme from "../../utils/theme";
-import mq from "../../utils/breakpoints";
 import authors from "./blogAuthors";
 
 const BlogCardWrapper = styled("div")(
@@ -136,13 +141,13 @@ const BlogCard = ({
                 </div>
             )}
             <div className="media-wrapper">
-                {featureImage.childImageSharp && featureImage.childImageSharp.fluid ? (
+                {featureImage?.childImageSharp && featureImage?.childImageSharp.fluid ? (
                     <Img
-                        fluid={featureImage.childImageSharp && featureImage.childImageSharp.fluid}
+                        fluid={featureImage?.childImageSharp && featureImage?.childImageSharp.fluid}
                         alt={featureImage.name}
                     />
                 ) : (
-                    <img className="media" src={featureImage.publicURL} alt={featureImage.name} />
+                    <img className="media" src={featureImage?.publicURL} alt={featureImage.name} />
                 )}
             </div>
             <div className="text-wrapper">

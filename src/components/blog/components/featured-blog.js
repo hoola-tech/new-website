@@ -1,16 +1,18 @@
+import React from "react";
+
+import { navigate } from "gatsby";
+import Img from "gatsby-image";
+
 import CircleIcon from "../assets/circle.inline.svg";
 import { FeaturedBlogWrapper } from "../blog-styles";
-import Img from "gatsby-image";
-import React from "react";
 // assets
 import authors from "./blogAuthors";
-import { navigate } from "gatsby";
 
 export default ({ data }) => {
     // handle image transformation exceptions
     let FeatureImage = <img src={data.featureImage.publicURL} alt={data.title} />;
-    if (data.featureImage.childImageSharp !== null) {
-        FeatureImage = <Img fluid={data.featureImage.childImageSharp.fluid} alt={data.title} />;
+    if (data.featureImage?.childImageSharp !== null) {
+        FeatureImage = <Img fluid={data.featureImage?.childImageSharp.fluid} alt={data.title} />;
     }
 
     return (

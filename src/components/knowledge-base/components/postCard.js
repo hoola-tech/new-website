@@ -1,9 +1,11 @@
-import { FeaturedBlogWrapper } from "../../blog/blog-styles";
-import Img from "gatsby-image";
 import React from "react";
-import styled from "react-emotion";
+
 // assets
 import { navigate } from "gatsby";
+import Img from "gatsby-image";
+import styled from "react-emotion";
+
+import { FeaturedBlogWrapper } from "../../blog/blog-styles";
 import mq from "../../utils/breakpoints";
 import theme from "../../utils/theme";
 
@@ -28,9 +30,9 @@ const PostCardWrapper = styled(FeaturedBlogWrapper)(
 
 export default ({ data }) => {
     // handle image transformation exceptions
-    let FeatureImage = <img src={data.featureImage.publicURL} alt={data.title} />;
-    if (data.featureImage.childImageSharp !== null) {
-        FeatureImage = <Img fluid={data.featureImage.childImageSharp.fluid} alt={data.title} />;
+    let FeatureImage = <img src={data.featureImage?.publicURL} alt={data.title} />;
+    if (data.featureImage?.childImageSharp !== null) {
+        FeatureImage = <Img fluid={data.featureImage?.childImageSharp.fluid} alt={data.title} />;
     }
 
     return (

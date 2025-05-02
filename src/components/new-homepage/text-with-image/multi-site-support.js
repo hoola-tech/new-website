@@ -1,10 +1,16 @@
 import React from "react";
+
+import {
+    graphql,
+    useStaticQuery,
+} from "gatsby";
 import styled from "react-emotion";
-import { useStaticQuery, graphql } from "gatsby";
 
 import TextWithImage from "./text-with-image";
-
-import { Highlight, Bold } from "./text-with-image.styled";
+import {
+    Bold,
+    Highlight,
+} from "./text-with-image.styled";
 
 const Background = styled("div")({
     background: "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FBFAFF 100%)",
@@ -28,7 +34,7 @@ const MultiSiteSupport = () => {
         <Background>
             <TextWithImage
                 isLeftImage
-                image={image.file.childImageSharp.fluid}
+                image={image.file?.childImageSharp.fluid}
                 subtitle="Multi-site support"
                 title={
                     <>

@@ -1,7 +1,9 @@
 import React from "react";
+
 import { graphql } from "gatsby";
-import BaseLayout from "../layouts/base";
+
 import KnowledgeBase from "../components/knowledge-base/knowledgeBase";
+import BaseLayout from "../layouts/base";
 
 export default ({ data, location }) => {
     const knowledgeBasePosts = data.knowledgeBase.nodes;

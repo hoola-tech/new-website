@@ -32,7 +32,7 @@ const NoCodeSuite = () => {
     return (
         <Background>
             <TextWithImage
-                image={image.file.childImageSharp.fluid}
+                image={image.file?.childImageSharp.fluid}
                 subtitle="Collaborative Workspace"
                 title={
                     <>

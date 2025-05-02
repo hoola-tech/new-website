@@ -1,18 +1,27 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import styled from "react-emotion";
-import { css, cx } from "emotion";
-
 import "remark-admonitions/styles/classic.css";
-import theme from "../utils/theme";
-import mq from "../utils/breakpoints";
-import BaseLayout from "../../layouts/base";
-import { MDXProvider } from "@mdx-js/react";
+
+import React from "react";
+
+import {
+    css,
+    cx,
+} from "emotion";
+import {
+    graphql,
+    Link,
+} from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import ExternalLink from "../utils/ExternalLink";
+import styled from "react-emotion";
+
+import { MDXProvider } from "@mdx-js/react";
+
+import BaseLayout from "../../layouts/base";
 import Breadcrumb from "../../layouts/components/breadcrumb";
-import TableOfContents from "./components/tableOfContents";
+import mq from "../utils/breakpoints";
+import ExternalLink from "../utils/ExternalLink";
+import theme from "../utils/theme";
 import NewsletterFooter from "./components/NewsletterFooter";
+import TableOfContents from "./components/tableOfContents";
 
 const shortcodes = { ExternalLink };
 
@@ -287,9 +296,9 @@ export default function Template({
     } = data; // data.markdownRemark holds your post data
 
     // handle image transformation exceptions
-    let featureImage = frontmatter.featureImage.publicURL;
-    if (frontmatter.featureImage.childImageSharp !== null) {
-        featureImage = frontmatter.featureImage.childImageSharp.fluid.src;
+    let featureImage = frontmatter.featureImage?.publicURL;
+    if (frontmatter.featureImage?.childImageSharp !== null) {
+        featureImage = frontmatter.featureImage?.childImageSharp.fluid.src;
     }
 
     const breadcrumbs = [

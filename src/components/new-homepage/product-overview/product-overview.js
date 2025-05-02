@@ -125,13 +125,13 @@ const ProductOverview = () => {
             title: "Hoola AI Control Panel",
             content:
                 "Streamline the operations around managing, monitoring and scaling your Hoola AI CMS self-hosted instance.",
-            image: images.wcpImage.childImageSharp.fluid,
+            image: images.wcpImage?.childImageSharp.fluid,
             isComingSoon: true,
         },
         {
             title: "Advanced Publishing Workflow",
             content: "Enforce content changes through an approval process before it's published.",
-            image: images.apwImage.childImageSharp.fluid,
+            image: images.apwImage?.childImageSharp.fluid,
             isComingSoon: true,
         },
     ];
