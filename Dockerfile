@@ -21,7 +21,7 @@ RUN apk add --no-cache \
 COPY package.json yarn.lock ./
 
 # Install dependencies
-RUN yarn install --frozen-lockfile && test -d node_modules
+RUN yarn install && test -d node_modules
 
 # Copy the rest of the application code
 COPY . .
