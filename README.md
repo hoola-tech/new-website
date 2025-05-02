@@ -41,15 +41,3 @@ Hoola AI uses [Gatsby](https://www.gatsbyjs.com/) for its website. Here is how y
    ```sh
    yarn develop
    ```
-
-## Project structure
-
-All the blogs are inside the [`src/blogPosts`](https://github.com/webiny/website/tree/master/src/blogPosts) folder. And you can manage main menu items from the [`src/components/header/header-data.js`](https://github.com/webiny/website/blob/master/src/components/header/header-data.js) file.
-
-## Contributors
-
-### 🧡 Thanks goes to these wonderful people!
-
-<a href="https://github.com/webiny/website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=webiny/website" />
-</a>
