@@ -21,7 +21,7 @@ RUN apk add --no-cache \
 COPY package.json yarn.lock ./
 
 # Install dependencies
-RUN yarn install
+RUN yarn install --frozen-lockfile && test -d node_modules
 
 # Copy the rest of the application code
 COPY . .
@@ -34,9 +34,3 @@ FROM nginx:alpine AS production
 
 # Copy the built Gatsby site to the Nginx web server directory
 COPY --from=builder /app/public /usr/share/nginx/html
-
-# Expose port 80
-EXPOSE 80
-
-# Start Nginx
-CMD ["nginx", "-g", "daemon off;"]
