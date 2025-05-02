@@ -2106,7 +2106,6 @@ __metadata:
     styled-components: ^3.3.3
     titlecase: ^1.1.3
     typed.js: ^2.1.0
-    wts: "https://github.com/webiny/wts#2811da54b0b21e61dc79cf63509d1165f95a2308"
   languageName: unknown
   linkType: soft
 
@@ -6212,15 +6211,6 @@ __metadata:
   bin:
     browserslist: cli.js
   checksum: 64074bf6cf0a9ae3094d753270e3eae9cf925149db45d646f0bc67bacc2e46d7ded64a4e835b95f5fdcf0350f63a83c3755b32f80831f643a47f0886deb8a065
-  languageName: node
-  linkType: hard
-
-"btoa@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "btoa@npm:1.2.1"
-  bin:
-    btoa: bin/btoa.js
-  checksum: afbf004fb1b1d530e053ffa66ef5bd3878b101c59d808ac947fcff96810b4452abba2b54be687adadea2ba9efc7af48b04228742789bf824ef93f103767e690c
   languageName: node
   linkType: hard
 
@@ -26671,17 +26661,6 @@ __metadata:
   dependencies:
     async-limiter: ~1.0.0
   checksum: bbe547ab976a9de98dacfae2e3527f12ca961b6f4b8dba331eaaf3f908625275b5d7e70e300def9a2a8d937c09b7e066a8d4a6e08c1325f668f3b82e22f1e9b9
-  languageName: node
-  linkType: hard
-
-"wts@https://github.com/webiny/wts#2811da54b0b21e61dc79cf63509d1165f95a2308":
-  version: 2.0.0
-  resolution: "wts@https://github.com/webiny/wts.git#commit=2811da54b0b21e61dc79cf63509d1165f95a2308"
-  dependencies:
-    btoa: ^1.2.1
-    js-cookie: ^2.2.1
-    node-fetch: ^2.6.1
-  checksum: 6ec62e0db1b687c889c16e38b5f6ed58b8d06858b4741621056d03e4991530a189b43a298bc1db731bd1a9151fe59f38f1fe7308d9acc8659a74e883df6c7b72
   languageName: node
   linkType: hard
 
