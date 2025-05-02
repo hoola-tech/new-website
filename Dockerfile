@@ -26,11 +26,8 @@ RUN yarn install && test -d node_modules
 # Build the Gatsby site
 RUN yarn build
 
-# Copy the built Gatsby site to the Nginx web server directory
-COPY /app/public /usr/share/nginx/html
-
 # Expose port 80
-EXPOSE 80
+EXPOSE 9000
 
 # Start Nginx
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["yarn", "serve"]
