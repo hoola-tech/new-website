@@ -4,10 +4,10 @@ FROM node:18-alpine AS builder
 # Set the working directory
 WORKDIR /app
 
-# Install dependencies for building the Gatsby site
-RUN apk add git
+# Install build dependencies for Gatsby and Node.js
+RUN apk add --no-cache python3 make g++ bash git
 
-# Copy package.json and package-lock.json (or yarn.lock) to the working directory
+# Copy package.json and yarn.lock to the working directory
 COPY package.json yarn.lock ./
 
 # Install dependencies
