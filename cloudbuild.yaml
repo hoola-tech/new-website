@@ -12,15 +12,15 @@ steps:
 
   # Use Docker to create a container image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/${PROJECT_ID}/my-gatsby-app', '.']
+    args: ['build', '-t', 'gcr.io/${PROJECT_ID}/new-website', '.']
     # Build a Docker image.
-    #  - Replace 'my-gatsby-app' with your desired image name.
+    #  - Replace 'new-website' with your desired image name.
     #  -  The '.' specifies the current directory (where the Dockerfile is located).
     #    You'll need a Dockerfile in your project root.
 
   # Push the Docker image to Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/${PROJECT_ID}/my-gatsby-app']
+    args: ['push', 'gcr.io/${PROJECT_ID}/new-website']
     # Push the built image to Google Artifact Registry.
 
   # Deploy the image to Cloud Run
@@ -32,7 +32,7 @@ steps:
         'deploy',
         'my-gatsby-service', # Replace with your desired service name
         '--image',
-        'gcr.io/${PROJECT_ID}/my-gatsby-app',
+        'gcr.io/${PROJECT_ID}/new-website',
         '--region',
         'us-central1', # Or your desired region
         '--platform',
