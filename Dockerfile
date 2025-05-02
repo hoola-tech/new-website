@@ -1,5 +1,5 @@
 # Use Node.js 18 as the base image
-FROM node:18-alpine AS builder
+FROM node:18-alpine
 
 # Set the working directory
 WORKDIR /app
@@ -17,20 +17,20 @@ RUN apk add --no-cache \
     nasm \
     libjpeg-turbo-dev
 
-# Copy package.json and yarn.lock to the working directory
-COPY package.json yarn.lock ./
+# Copy the rest of the application code
+COPY . .
 
 # Install dependencies
 RUN yarn install && test -d node_modules
 
-# Copy the rest of the application code
-COPY . .
-
 # Build the Gatsby site
 RUN yarn build
 
-# Use a lightweight web server for the production image
-FROM nginx:alpine AS production
-
 # Copy the built Gatsby site to the Nginx web server directory
-COPY --from=builder /app/public /usr/share/nginx/html
+COPY /app/public /usr/share/nginx/html
+
+# Expose port 80
+EXPOSE 80
+
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]
