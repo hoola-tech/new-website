@@ -3,11 +3,9 @@ import React from "react";
 import { withPrefix } from "gatsby-link";
 import Helmet from "react-helmet";
 
-import ogImageDefault from "../assets/webiny-social-share.jpg";
-
 class Head extends React.Component {
     render() {
-        const ogImage = this.props.image ? this.props.image : ogImageDefault;
+        const ogImage = this.props.image && this.props.image;
         let domainName =
             typeof window !== "undefined"
                 ? window.location.origin + "/"
@@ -76,7 +74,7 @@ class Head extends React.Component {
                     link={[
                         {
                             rel: "shortcut icon",
-                            href: withPrefix("./favicon.ico"),
+                            href: withPrefix("./icon.png"),
                             type: "image/x-icon",
                         },
                     ]}
