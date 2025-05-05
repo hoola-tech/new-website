@@ -1,804 +1,578 @@
 import React from "react";
+
 import Body from "./body";
 
 export default ({ children, ...props }) => (
     <Body title={"Privacy Policy"}>
         <div>
             <span>
-                <p>Hoola AI Ltd</p>
+                <p>Hoola Technology Limited</p>
                 <p>Privacy Policy and Cookie Policy for Website</p>
-                <p>Effective date: 19th Jan 2019</p>
+                <p>Effective date: 25th July 2024</p>
                 <h3>The short version</h3>
                 <p>
-                    All the information is only collected with your consent. We try to collect only
-                    the minimum amount of personal information that is necessary for you to interact
-                    with our service. Hoola AI Ltd doesn’t sell any of your information to third
-                    parties, and all the data is used in-line with the rules stated in this Privacy
-                    Policy.
+                    At Hoola, we prioritize your privacy and are committed to safeguarding your
+                    personal information. Our Privacy Policy outlines how we collect, use, and
+                    protect your data, ensuring transparency and trust. We detail the types of
+                    information we gather, the purposes for which it is used, and the measures we
+                    take to keep it secure. We also explain your rights and choices regarding your
+                    personal information. By using our services, you consent to the practices
+                    described in this policy. We encourage you to read this policy carefully to
+                    understand our approach to privacy and how it impacts you.
                 </p>
                 <p>
                     Of course, the short version doesn't tell you everything, so please read on for
                     more details!
                 </p>
-                <h3>1. Introduction</h3>
-                <p>
-                    Hoola AI Ltd (Hoola AI) respects your privacy and is committed to protecting your
-                    personal data. This privacy notice will inform you as to how Hoola AI looks after
-                    your personal data when you visit our website (regardless of where you visit it
-                    from), and tell you about your privacy rights and how the law protects you, as
-                    well as how we collect and process data received from you on our site.
-                </p>
-                <p>
-                    Please read the following carefully to understand our views and practices
-                    regarding your personal data and how we will treat it. It is important that you
-                    read this privacy notice together with any other privacy notice or fair
-                    processing notice we may provide on specific occasions when we are collecting or
-                    processing personal data about you so that you are fully aware of how and why we
-                    are using your data. This privacy notice supplements the other notices and is
-                    not intended to override them.
-                </p>
-                <p>
-                    This privacy notice aims to give you information on how Hoola AI collects and
-                    processes your personal data through your use of this website, including any
-                    data you may provide through this website when you sign up to our newsletter,
-                    attend an event or take part in a competition.
-                </p>
-                <p>
-                    This website is not intended for children and we do not knowingly collect data
-                    relating to children.
-                </p>
-                <p>
-                    This policy covers the collection, processing and other use of personal data
-                    under the Data Protection Act 1998 (“DPA”) and the General Data Protection
-                    Regulations (“GDPR”).
-                </p>
-                <p>
-                    For the purpose of the DPA and GDPR we are the data controller and any enquiry
-                    regarding the collection or processing of your data should be addressed to Sven
-                    Al Hamad at our address Hoola AI Ltd, 3 Gower Street, London WC1E 6HA, UK.
-                </p>
-                <p>By using the Website, you consent to this policy.</p>
-                <p>
-                    If you have any comments on this privacy policy, please email them to
-                    privacy@hoola.ai
-                </p>
-                <h3>2. Who We Are</h3>
-                <p>
-                    Here are the details that the Regulation (EU) 2016/679 of the European
-                    Parliament and of the Council of 27 April 2016 on the protection of natural
-                    persons with regards to the processing of personal data and on the free movement
-                    of such data, known as General Data Protection Regulation (GDPR) says we have to
-                    give you as a 'data controller':
-                </p>
-                <ul>
-                    <li>
-                        Controller - Hoola AI Ltd (Hoola AI) is the data controller and responsible for
-                        the personal data referred to in this privacy notice
-                    </li>
-                    <li>Our site address is https://www.hoola.ai/</li>
-                    <li>Our company name is Hoola AI Ltd</li>
-                    <li>Our registered address is 3 Gower Street, London WC1E 6HA, UK</li>
-                    <li>
-                        Our nominated representative or Data Protection Officer is Sven Al Hamad,
-                        Director of Hoola AI Ltd. If you have any questions about this privacy policy,
-                        including any requests to exercise your legal rights, please contact us at
-                        privacy@hoola.ai.
-                    </li>
-                </ul>
-                <h3>3. What we may collect</h3>
-                <p>
-                    Personal data, or personal information, means any information about an
-                    individual from which that person can be identified. It does not include data
-                    where the identity has been removed (anonymous data).
-                </p>
-                <p>
-                    We will collect personal data on this Website only if it is directly provided to
-                    us by you the user, e.g. your e-mail address, name, home or work address and
-                    telephone number, and therefore has been provided by you with your consent.
-                </p>
-                <p>
-                    We also use analytical and statistical tools that monitor details of your visits
-                    to our website and the resources that you access, including, but not limited to,
-                    traffic data, location data, weblogs and other communication data.
-                </p>
-                <p>
-                    We may collect, use, store and transfer different kinds of personal data about
-                    you which we have grouped together follows:
-                </p>
-                <ol>
-                    <li>
-                        Identity Data (includes first name, maiden name, last name, username or
-                        similar identifier, marital status, title, date of birth and gender).
-                    </li>
-                    <li>Contact Data (includes email address and telephone numbers).</li>
-                    <li>Financial Data (includes bank account and payment card details).</li>
-                    <li>
-                        Transaction Data (includes details about payments to and from you and other
-                        details of products and services you have purchased from us).
-                    </li>
-                    <li>
-                        Technical Data (includes internet protocol (IP) address, your login data,
-                        browser type and version, time zone setting and location, browser plug-in
-                        types and versions, operating system and platform and other technology on
-                        the devices you use to access this website).
-                    </li>
-                    <li>
-                        Profile Data (includes your username and password, purchases or orders made
-                        by you, your interests, preferences, feedback and survey responses).
-                    </li>
-                    <li>
-                        Usage Data (includes information about how you use our website, products and
-                        services).
-                    </li>
-                    <li>
-                        Marketing and Communications Data (includes your preferences in receiving
-                        marketing from us and our third parties and your communication preferences).
-                    </li>
-                </ol>
-                <p>
-                    We also collect, use and share Aggregated Data such as statistical or
-                    demographic data for any purpose. Aggregated Data may be derived from your
-                    personal data but is not considered personal data in law as this data does not
-                    directly or indirectly reveal your identity. For example, we may aggregate your
-                    Usage Data to calculate the percentage of users accessing a specific website
-                    feature. However, if we combine or connect Aggregated Data with your personal
-                    data so that it can directly or indirectly identify you, we treat the combined
-                    data as personal data which will be used in accordance with this privacy notice.
-                </p>
-                <p>
-                    We do not collect any Special Categories of Personal Data about you (this
-                    includes details about your race or ethnicity, religious or philosophical
-                    beliefs, sex life, sexual orientation, political opinions, trade union
-                    membership, information about your health and genetic and biometric data). Nor
-                    do we collect any information about criminal convictions and offences.
-                </p>
-                <p>
-                    Where we need to collect personal data by law, or under the terms of a contract
-                    we have with you and you fail to provide that data when requested, we may not be
-                    able to perform the contract we have or are trying to enter into with you (for
-                    example, to provide you with goods or services). In this case, we may have to
-                    cancel a product or service you have with us but we will notify you if this is
-                    the case at the time.
-                </p>
-                <p>
-                    Under GDPR we will ensure that your personal data is processed lawfully, fairly,
-                    and transparently, without adversely affecting your rights. We will only process
-                    your personal data if at least one of the following basis applies:
-                </p>
-                <ol>
-                    <li>
-                        you have given consent to the processing of your personal data for one or
-                        more specific purposes;
-                    </li>
-                    <li>
-                        processing is necessary for the performance of a contract to which you are a
-                        party or in order to take steps at the request of you prior to entering into
-                        a contract;
-                    </li>
-                    <li>
-                        processing is necessary for compliance with a legal obligation to which we
-                        are subject;
-                    </li>
-                    <li>
-                        processing is necessary to protect the vital interests of you or of another
-                        natural person;
-                    </li>
-                    <li>
-                        processing is necessary for the performance of a task carried out in the
-                        public interest or in the exercise of official authority vested in the
-                        controller; and/or
-                    </li>
-                    <li>
-                        processing is necessary for the purposes of the legitimate interests pursued
-                        by us or by a third party such as our credit card payment processing, except
-                        where such interests are overridden by the fundamental rights and freedoms
-                        of the data subject which require protection of personal data, in particular
-                        where the data subject is a child.
-                    </li>
-                </ol>
-                <p>
-                    It is important that the personal data we hold about you is accurate and
-                    current. Please keep us informed if your personal data changes during your
-                    relationship with us by emailing us at privacy@hoola.ai.
-                </p>
-                <p>
-                    You will not have to pay a fee to access your personal data (or to exercise any
-                    of the other rights). However, we may charge a reasonable fee if your request is
-                    clearly unfounded, repetitive or excessive. Alternatively, we may refuse to
-                    comply with your request in these circumstances.
-                </p>
-                <p>
-                    We may need to request specific information from you to help us confirm your
-                    identity and ensure your right to access your personal data (or to exercise any
-                    of your other rights). This is a security measure to ensure that personal data
-                    is not disclosed to any person who has no right to receive it. We may also
-                    contact you to ask you for further information in relation to your request to
-                    speed up our response.
-                </p>
-                <p>
-                    We try to respond to all legitimate requests within one month. Occasionally it
-                    may take us longer than a month if your request is particularly complex or you
-                    have made a number of requests. In this case, we will notify you and keep you
-                    updated.
-                </p>
-                <h3>4. How is your personal data collected?</h3>
-                <p>
-                    We use different methods to collect data from and about you including through:
-                </p>
-                <p>
-                    Direct interactions. You may give us your Identity, Contact and Financial Data
-                    by filling in forms or by corresponding with us by post, phone, email or
-                    otherwise. This includes personal data you provide when you:
-                </p>
-                <ul>
-                    <li>apply for our products or services;</li>
-                    <li>create an account on our website;</li>
-                    <li>subscribe to our service or publications;</li>
-                    <li>request marketing to be sent to you;</li>
-                    <li>enter a competition, promotion or survey; or</li>
-                    <li>give us some feedback.</li>
-                </ul>
-                <p>
-                    Automated technologies or interactions. As you interact with our website, we may
-                    automatically collect Technical Data about your equipment, browsing actions and
-                    patterns. We collect this personal data by using cookies, server logs and other
-                    similar technologies. We may also receive Technical Data about you if you visit
-                    other websites employing our cookies. Please see our cookie policy (section 4)
-                    for further details.
-                </p>
-                <p>
-                    Third parties or publicly available sources. We may receive personal data about
-                    you from various third parties and public sources as set out below:
-                </p>
-                <p>Technical Data from the following parties:</p>
-                <ul>
-                    <li>analytics providers (such as Google) based outside the EU;</li>
-                    <li>advertising networks based inside OR outside the EU; and</li>
-                    <li>search information providers based inside OR outside the EU.</li>
-                    <li>
-                        Contact, Financial and Transaction Data from providers of technical, payment
-                        and delivery services based inside OR outside the EU.
-                    </li>
-                    <li>
-                        Identity and Contact Data from data brokers or aggregators based inside OR
-                        outside the EU.
-                    </li>
-                    <li>
-                        Identity and Contact Data from publicly available sources such as Companies
-                        House and the Electoral Register based inside the EU.
-                    </li>
-                </ul>
-                <h3>5. Cookies</h3>
-                <p>
-                    Our Website uses cookies. All Cookies used by and on our website are used in
-                    accordance with current English and EU Cookie Law. Cookies are pieces of
-                    information that include a unique reference code that a website transfers to
-                    your device to store and sometimes track information about you.
-                </p>
-                <p>
-                    A few of the cookies we use last only for the duration of your web session and
-                    expire when you close your browser. Other cookies are used to remember you when
-                    you return to the site and will last for longer.
-                </p>
-                <p>
-                    We use cookies to gather information about your computer for our services and to
-                    provide statistical information regarding the use of our Website. Such
-                    information will not identify you personally - it is statistical data about our
-                    visitors and their use of our Website. This statistical data does not identify
-                    any personal details whatsoever.
-                </p>
-                <p>
-                    We may also gather information about your general Internet use by using a cookie
-                    file. Where used, these cookies are downloaded to your computer automatically.
-                    This cookie file is stored on the hard drive of your computer, as cookies
-                    contain information that is transferred to your computer's hard drive. They help
-                    us to improve our Website and the service that we provide to you.
-                </p>
-                <p>
-                    All computers have the ability to decline cookies. This can be done by
-                    activating the setting on your browser which enables you to decline the cookies.
-                    Please note that should you choose to decline cookies, you may be unable to
-                    access particular parts of our Website. Where we work with advertisers on our
-                    Website, our advertisers may also use cookies, over which we have no control.
-                    Such cookies (if used) would be downloaded once you click on advertisements on
-                    our Website.
-                </p>
-                <p>
-                    Most computer and some mobile web browsers automatically accept cookies but, if
-                    you prefer, you can change your browser to prevent that or to notify you each
-                    time a cookie is set. You can prevent the setting of cookies by adjusting the
-                    settings on your browser. Please note however, that by blocking or deleting
-                    cookies you may not be able to take full advantage of the site.
-                </p>
-                <p>Our cookies will be used for</p>
-                <ol>
-                    <li>Essential session management</li>
-                </ol>
-                <ul>
-                    <li>
-                        creating a specific log-in session for a user of the site in order that the
-                        site remembers that a user is logged in and that their page requests are
-                        delivered in an effective, secure and consistent manner;
-                    </li>
-                    <li>
-                        recognizing when a user of the site has visited before allowing us to
-                        identify the number of unique users we receive to the site and make sure we
-                        have enough capacity for the number of users that we get;
-                    </li>
-                    <li>recognizing if a visitor to the site is registered with us in any way;</li>
-                    <li>
-                        we may also log information from your computer including the existence of
-                        cookies, your IP address and information about your browser program in order
-                        to allow us to diagnose problems, administer and track your usage of our
-                        site.
-                    </li>
-                </ul>
-                <ol start="2">
-                    <li>Functionality</li>
-                </ol>
-                <ul>
-                    <li>
-                        customizing elements of the promotional layout and/or content of the pages
-                        of the site.
-                    </li>
-                </ul>
-                <ol start="3">
-                    <li>Performance and measurement</li>
-                </ol>
-                <ul>
-                    <li>
-                        collecting statistical information about how our users use the site so that
-                        we can improve the site and learn which parts are most popular to users.
-                    </li>
-                </ul>
-                <h3>6. How we use what we collect</h3>
-                <p>
-                    We may hold and process personal data that you provide to us in accordance with
-                    the DPA and GDPR.
-                </p>
-                <p>
-                    The information that we collect and store relating to you is primarily used to
-                    enable us to provide our services to you, and/or to meet our contractual
-                    commitments to you.
-                </p>
-                <p>
-                    We strive to provide you with choices regarding certain personal data uses,
-                    particularly around marketing and advertising. We may use your Identity,
-                    Contact, Technical, Usage and Profile Data to form a view on what we think you
-                    may want or need, or what may be of interest to you. This is how we decide which
-                    products, services and offers may be relevant for you (we call this marketing).
-                    You will receive marketing communications from us if you have requested
-                    information from us or purchased goods or services from us or if you provided us
-                    with your details when you entered a competition or registered for a promotion
-                    and, in each case, you have not opted out of receiving that marketing.
-                </p>
-                <ul>
-                    <li>In addition, we may use the information for the following purposes:</li>
-                    <li>
-                        To notify you about any changes to our website, such as improvements or
-                        service/product changes, that may affect our service
-                    </li>
-                    <li>Present site content effectively to you</li>
-                    <li>
-                        Provide information, products and services that you request, or (with your
-                        consent) which we think may interest you
-                    </li>
-                    <li>Carry out our contracts with you</li>
-                    <li>Allow you to use our interactive services if you want to</li>
-                    <li>Tell you our charges</li>
-                    <li>
-                        Where you have consented to receive such information, to provide information
-                        on other parties’ products or services that we feel may be of interest to
-                        you;
-                    </li>
-                    <li>
-                        Where you have consented to receive our e-newsletters, from time to time, to
-                        provide these to you
-                    </li>
-                </ul>
-                <p>
-                    If you are already our member or customer, we will only contact you
-                    electronically about things similar to what was previously advertised or sold to
-                    you.
-                </p>
-                <p>
-                    If you are a new member or customer, you will only be contacted if you agree to
-                    it.
-                </p>
-                <p>
-                    If you don't want to be contacted for marketing purposes, please unsubscribe
-                    from our newsletter via the link at the end of each newsletter, or contacts us
-                    privacy@hoola.ai.
-                </p>
-                <p>
-                    Please note: We don't identify individuals to our advertisers, nor do we sell
-                    our data to them.
-                </p>
-                <p>
-                    In addition, if you don’t want us to use your personal data for any of the other
-                    reasons set out in this section, you can let us know at any time by contacting
-                    us privacy@hoola.ai, and we will delete your data from our systems. However,
-                    you acknowledge this will limit our ability to provide the best possible
-                    products and services to you.
-                </p>
-                <p>
-                    In some cases, the collection of personal data may be a statutory or contractual
-                    requirement, and we will be limited in the products and services we can provide
-                    you if you don’t provide your personal data in these cases.
-                </p>
-                <p>
-                    We will only use your personal data when the law allows us to. Most commonly, we
-                    will use your personal data in the following circumstances:
-                </p>
-                <ul>
-                    <li>
-                        Where we need to perform the contract we are about to enter into or have
-                        entered into with you.
-                    </li>
-                    <li>
-                        Where it is necessary for our legitimate interests (or those of a third
-                        party) and your interests and fundamental rights do not override those
-                        interests.
-                    </li>
-                    <li>Where we need to comply with a legal or regulatory obligation.</li>
-                </ul>
-                <p>
-                    Generally we do not rely on consent as a legal basis for processing your
-                    personal data other than in relation to sending third party direct marketing
-                    communications to you via email or text message. You have the right to withdraw
-                    consent to marketing at any time by contacting us.
-                </p>
-                <h3>7. Where we store your data</h3>
-                <p>
-                    As part of the services offered to you, for example through our Website, the
-                    information you provide to us may be transferred to and stored in countries
-                    outside of the European Economic Area (EEA) as we use remote website server
-                    hosts to provide the website and some aspects of our service, which may be based
-                    outside of the EEA, or use servers based outside of the EEA - this is generally
-                    the nature of data stored in “the Cloud”. It may also be processed by staff
-                    operating outside the EEA who work for one of our suppliers, e.g. our website
-                    server host, or work for us when temporarily outside of the EEA.
-                </p>
-                <p>
-                    A transfer of your personal data may happen if any of our servers are located in
-                    a country outside of the EEA or one of our service providers is located in a
-                    country outside of the EEA. If we transfer or store your personal data outside
-                    the EEA in this way, we will take steps with the aim of ensuring that your
-                    privacy rights continue to be protected, as outlined in this privacy policy and
-                    in accordance with the DPA and GDPR. If you use our service while you are
-                    outside the EEA, your personal data may be transferred outside the EEA in order
-                    to provide you with these services.
-                </p>
-                <p>
-                    We do not use or disclose sensitive personal data, such as race, religion, or
-                    political affiliations, without your explicit consent.
-                </p>
-                <p>
-                    We may disclose your personal data outside of our group: (a) in the event that
-                    we sell or buy any business or assets, in which case we may disclose your
-                    personal data to the prospective seller or buyer of such business or assets; and
-                    (b) if Hoola AI’s business is bought by a third party, in which case personal data
-                    held by it about its customers will be one of the assets to transfer to the
-                    buyer. However, any such transfer will only be on terms that the confidentiality
-                    of your personal data is protected and that the terms of this privacy policy
-                    will continue to be complied with by the recipient.
-                </p>
-                <p>
-                    Otherwise, we will process, disclose or share your personal data only if
-                    required to do so by law or in the good faith belief that such action is
-                    necessary to comply with legal requirements or legal process served on us or the
-                    website.
-                </p>
-                <p>
-                    By giving us your personal data, you agree to this arrangement. We will do what
-                    we reasonably can to keep your data secure.
-                </p>
-                <p>
-                    You have the right to opt out of our processing your personal data for marketing
-                    purposes by contacting us at privacy@hoola.ai.
-                </p>
-                <p>
-                    Although we try to provide protection, we cannot guarantee complete security for
-                    your data, and you take the risk that any sending of that data turns out to be
-                    not secure despite our efforts.
-                </p>
-                <p>
-                    We will only retain your personal data for as long as necessary to fulfil the
-                    purposes we collected it for as described above in section 6, including for the
-                    purposes of satisfying any legal, accounting, or reporting requirements, and/or
-                    for as long as we have your permission to keep it. To determine the appropriate
-                    retention period for personal data, we consider the amount, nature, and
-                    sensitivity of the personal data, the potential risk of harm from unauthorized
-                    use or disclosure of your personal data, the purposes for which we process your
-                    personal data and whether we can achieve those purposes through other means, and
-                    the applicable legal requirements. In any event, we will conduct an annual
-                    review to ascertain whether we need to keep your personal data. Your personal
-                    data will be deleted if we no longer need it.
-                </p>
-                <h3>8. Disclosing your information</h3>
-                <p>We are allowed to disclose your information in the following cases:</p>
-                <ul>
-                    <li>
-                        If we want to sell our business, or our company, we can disclose it to the
-                        potential buyer
-                    </li>
-                    <li>We can disclose it to other businesses in our group</li>
-                    <li>
-                        We can disclose it if we have a legal obligation to do so, or in order to
-                        protect other people's property, safety or rights
-                    </li>
-                    <li>
-                        We can exchange information with others to protect against fraud or credit
-                        risks
-                    </li>
-                </ul>
-                <p>
-                    We do not share your personal data with 3rd parties for any marketing, sales or
-                    other advertisement opportunities. The only thing we might share is aggregate
-                    statistical information about our visitors which do not contain any personal
-                    identifiable information.
-                </p>
-                <p>
-                    Where any of your data is required for such a purpose, we will take all
-                    reasonable steps to ensure that your data will be handled safely, securely, and
-                    in accordance with your rights, our obligations, and the obligations of the
-                    third party under GDPR and the law.
-                </p>
-                <p>
-                    We will only use your personal data for the purposes for which we collected it,
-                    unless we reasonably consider that we need to use it for another reason and that
-                    reason is compatible with the original purpose. If you wish to get an
-                    explanation as to how the processing for the new purpose is compatible with the
-                    original purpose, please contact us via email at privacy@hoola.ai. If we need
-                    to use your personal data for an unrelated purpose, we will notify you and we
-                    will explain the legal basis which allows us to do so. Please note that we may
-                    process your personal data without your knowledge or consent, in compliance with
-                    the above rules, where this is required or permitted by law.
-                </p>
-                <h4>
-                    <strong>International transfers</strong>
-                </h4>
-                <p>
-                    We share your personal data within the Hoola AI community. This will involve
-                    transferring your data outside the European Economic Area (EEA).
-                </p>
-                <p>
-                    Many of our external third parties are based outside the European Economic Area
-                    (EEA) so their processing of your personal data will involve a transfer of data
-                    outside the EEA.]
-                </p>
-                <p>
-                    Whenever we transfer your personal data out of the EEA, we ensure a similar
-                    degree of protection is afforded to it by ensuring at least one of the following
-                    safeguards is implemented:
-                </p>
-                <p>
-                    · We will only transfer your personal data to countries that have been deemed to
-                    provide an adequate level of protection for personal data by the European
-                    Commission. For further details, see European Commission: Adequacy of the
-                    protection of personal data in non-EU countries.
-                </p>
-                <p>
-                    · Where we use certain service providers, we may use specific contracts approved
-                    by the European Commission which give personal data the same protection it has
-                    in Europe. For further details, see European Commission: Model contracts for the
-                    transfer of personal data to third countries.
-                </p>
-                <p>
-                    · Where we use providers based in the US, we may transfer data to them if they
-                    are part of the Privacy Shield which requires them to provide similar protection
-                    to personal data shared between the Europe and the US. For further details, see
-                    European Commission: EU-US Privacy Shield.
-                </p>
-                <p>
-                    Please contact us via email at privacy@hoola.ai if you want further
-                    information on the specific mechanism used by us when transferring your personal
-                    data out of the EEA.
-                </p>
-                <h3>9. Third-party links</h3>
-                <p>
-                    This website may include links to third-party websites, plug-ins and
-                    applications. Clicking on those links or enabling those connections may allow
-                    third parties to collect or share data about you. Please note that our terms and
-                    conditions and our policies will not apply to other websites that you get to via
-                    a link from our site. These websites should have their own privacy policies,
-                    which you should check. We do not control these third-party websites and do not
-                    accept any responsibility or liability for their policies whatsoever as we have
-                    no control over them. When you leave our website, we encourage you to read the
-                    privacy notice of every website you visit.
-                </p>
-                <h3>10. Your rights</h3>
-                <p>
-                    The DPA and GDPR give you the right to access information held about you by us.
-                    Please write to us or contact us by email if you wish to request confirmation of
-                    what personal information we hold relating to you. You can write to us by email
-                    to privacy@hoola.ai. There is no charge for requesting that we provide you
-                    with details of the personal data that we hold. We will provide this information
-                    within one month of your requesting the data.
-                </p>
-                <p>
-                    You have the right to change the permissions that you have given us in relation
-                    to how we may use your data. You also have the right to request that we cease
-                    using your data or that we delete all personal data records that we hold
-                    relating to you. You can exercise these rights at any time by writing to us via
-                    email to privacy@hoola.ai.
-                </p>
-                <p>
-                    You can ask us not to use your data for marketing. You can do this by contacting
-                    us at any time at privacy@hoola.ai.
-                </p>
-                <p>Under the GDPR, you have the right to:</p>
-                <p>
-                    request access to, deletion of or correction of, your personal data held by us
-                    at no cost to you;
-                </p>
-                <ul>
-                    <li>
-                        request that your personal data be transferred to another person (data
-                        portability);
-                    </li>
-                    <li>be informed of what data processing is taking place;</li>
-                    <li>restrict processing;</li>
-                    <li>to object to processing of your personal data; and</li>
-                    <li>complain to a supervisory authority.</li>
-                </ul>
-                <p>
-                    You also have rights with respect to automated decision-making and profiling as
-                    set out in section 11 below.
-                </p>
-                <p>
-                    You have the right to make a complaint at any time to the Information
-                    Commissioner's Office (ICO), the UK supervisory authority for data protection
-                    issues ( ). We would, however, appreciate the chance to deal with your concerns
-                    before you approach the ICO so please contact us in the first instance. To
-                    enforce any of the foregoing rights or if you have any other questions about our
-                    site or this Privacy Policy, please contact us at privacy@hoola.ai.
-                </p>
-                <h3>11. Changes</h3>
-                <p>
-                    We may update these policies to reflect changes to the website and customer
-                    feedback. Please regularly review these policies to be informed of how we are
-                    protecting your personal data. If we change our Privacy Policy, we will post the
-                    changes on this page. If we decide to, we may also email you.
-                </p>
-                <p>
-                    We welcome any queries, comments or requests you may have regarding this Privacy
-                    Policy. Please do not hesitate to contact us at Hoola AI Ltd, 3 Gower Street,
-                    London WC1E 6HA, UK or via email at privacy@hoola.ai.
-                </p>
-                <h3>12. Automated Decision-Making and Profiling</h3>
-                <p>
-                    12.1 In the event that we use personal data for the purposes of automated
-                    decision-making and those decisions have a legal (or similarly significant
-                    effect) on you, you have the right to challenge to such decisions under GDPR,
-                    requesting human intervention, expressing their own point of view, and obtaining
-                    an explanation of the decision from us.
-                </p>
-                <p>
-                    12.2 The right described in section 11.1 does not apply in the following
-                    circumstances:
-                </p>
-                <ol>
-                    <li>
-                        <p>
-                            the decision is necessary for the entry into, or performance of, a
-                            contract between the you and us;
-                        </p>
-                    </li>
-                    <li>
-                        <p>the decision is authorized by law; or</p>
-                    </li>
-                    <li>
-                        <p>you have given you explicit consent.</p>
-                        <p>
-                            12.3 Where we use your personal data for profiling purposes, the
-                            following shall apply:
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Clear information explaining the profiling will be provided, including
-                            its significance and the likely consequences;
-                        </p>
-                    </li>
-                    <li>
-                        <p>Appropriate mathematical or statistical procedures will be used;</p>
-                    </li>
-                    <li>
-                        <p>
-                            Technical and organizational measures necessary to minimize the risk of
-                            errors and to enable such errors to be easily corrected shall be
-                            implemented; and
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            All personal data processed for profiling purposes shall be secured in
-                            order to prevent discriminatory effects arising out of profiling.
-                        </p>
-                    </li>
-                </ol>
-                <h3>13. Security</h3>
-                <p>
-                    We have put in place appropriate security measures to prevent your personal data
-                    from being accidentally lost, used or accessed in an unauthorized way, altered
-                    or disclosed. In addition, we limit access to your personal data to those
-                    employees, agents, contractors and other third parties who have a business need
-                    to know. They will only process your personal data on our instructions and they
-                    are subject to a duty of confidentiality. We have put in place procedures to
-                    deal with any suspected personal data breach and will notify you and any
-                    applicable regulator of a breach where we are legally required to do so.
-                </p>
-                <p>
-                    The transmission of information via the Internet or email is not completely
-                    secure. Although we will do our best to protect your personal data, we cannot
-                    guarantee the security of data while you are transmitting it to our site; any
-                    such transmission is at your own risk. Once we have received your personal data,
-                    we will use strict procedures and security features to try to prevent
-                    unauthorized access.
-                </p>
-                <p>
-                    Where we have given you (or where you have chosen) a password so that you can
-                    access certain parts of our site, you are responsible for keeping this password
-                    confidential. You should choose a password that is not easy for someone to
-                    guess.
-                </p>
-                <h3>14. Your legal rights</h3>
-                <p>
-                    Request access to your personal data (commonly known as a "data subject access
-                    request"). This enables you to receive a copy of the personal data we hold about
-                    you and to check that we are lawfully processing it.
-                </p>
-                <p>
-                    Request correction of the personal data that we hold about you. This enables you
-                    to have any incomplete or inaccurate data we hold about you corrected, though we
-                    may need to verify the accuracy of the new data you provide to us.
-                </p>
-                <p>
-                    Request erasure of your personal data. This enables you to ask us to delete or
-                    remove personal data where there is no good reason for us continuing to process
-                    it. You also have the right to ask us to delete or remove your personal data
-                    where you have successfully exercised your right to object to processing (see
-                    below), where we may have processed your information unlawfully or where we are
-                    required to erase your personal data to comply with local law. Note, however,
-                    that we may not always be able to comply with your request of erasure for
-                    specific legal reasons which will be notified to you, if applicable, at the time
-                    of your request.
-                </p>
-                <p>
-                    Object to processing of your personal data where we are relying on a legitimate
-                    interest (or those of a third party) and there is something about your
-                    particular situation which makes you want to object to processing on this ground
-                    as you feel it impacts on your fundamental rights and freedoms. You also have
-                    the right to object where we are processing your personal data for direct
-                    marketing purposes. In some cases, we may demonstrate that we have compelling
-                    legitimate grounds to process your information which override your rights and
-                    freedoms.
-                </p>
-                <p>
-                    Request restriction of processing of your personal data. This enables you to ask
-                    us to suspend the processing of your personal data in the following scenarios:
-                    (a) if you want us to establish the data's accuracy; (b) where our use of the
-                    data is unlawful but you do not want us to erase it; (c) where you need us to
-                    hold the data even if we no longer require it as you need it to establish,
-                    exercise or defend legal claims; or (d) you have objected to our use of your
-                    data but we need to verify whether we have overriding legitimate grounds to use
-                    it.
-                </p>
-                <p>
-                    Request the transfer of your personal data to you or to a third party. We will
-                    provide to you, or a third party you have chosen, your personal data in a
-                    structured, commonly used, machine-readable format. Note that this right only
-                    applies to automated information which you initially provided consent for us to
-                    use or where we used the information to perform a contract with you.
-                </p>
-                <p>
-                    Withdraw consent at any time where we are relying on consent to process your
-                    personal data. However, this will not affect the lawfulness of any processing
-                    carried out before you withdraw your consent. If you withdraw your consent, we
-                    may not be able to provide certain products or services to you. We will advise
-                    you if this is the case at the time you withdraw your consent.
-                </p>
+
+                <div className="my-8 justify-center px-6 text-justify mx-auto max-w-7xl space-y-8 text-gray-600">
+                    <ol role="list">
+                        <li className="text-base font-semibold leading-7 text-gray-600">
+                            <strong>INTRODUCTION</strong>
+                        </li>
+                    </ol>
+                    <ul role="list" className="my-4 text-gray-600">
+                        <li className="has-line-data">
+                            <strong>Important information and who we are</strong>
+                            <br />
+                            Welcome to Hoola Technology Limited’s Privacy and Data Protection Policy
+                            (“<strong>Privacy Policy</strong>”).
+                            <br />
+                            At Hoola Technology Limited (“<strong>we</strong>”, “<strong>us</strong>
+                            ”, or “<strong>our</strong>”) we are committed to protecting and
+                            respecting your privacy and Personal Data in compliance with the United
+                            Kingdom General Data Protection Regulation (“<strong>GDPR</strong>”),
+                            the Data Protection Act 2018 and all other mandatory laws and
+                            regulations of the United Kingdom.
+                            <br />
+                            This Privacy Policy explains how we collect, process and keep your data
+                            safe. The Privacy Policy will tell you about your privacy rights, how
+                            the law protects you, and inform our employees and staff members of all
+                            their obligations and protocols when processing data.
+                            <br />
+                            The individuals from which we may gather and use data can include:
+                            <ul role="list" className="my-4 text-gray-600">
+                                <li className="has-line-data">Customers</li>
+                                <li className="has-line-data">Suppliers</li>
+                                <li className="has-line-data">Business contacts</li>
+                                <li className="has-line-data">Employees/Staff Members</li>
+                                <li className="has-line-data">
+                                    Third parties connected to your customers
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="has-line-data">
+                            and any other people that the organisation has a relationship with or
+                            may need to contact.
+                            <br />
+                            This Privacy Policy applies to all our employees and staff members and
+                            all Personal Data processed at any time by us.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>Your Data Controller</strong>
+                            <br />
+                            Hoola Technology Limited is your Data Controller and responsible for
+                            your Personal Data. We are not obliged by the GDPR to appoint a data
+                            protection officer and have not voluntarily appointed one at this time.
+                            Therefore, any inquiries about your data should either be sent to us by
+                            email to{" "}
+                            <a href="/cdn-cgi/l/email-protection#3159545d5d5e71595e5e5d501f5058">
+                                <span
+                                    className="__cf_email__"
+                                    data-cfemail="a1c9c4cdcdcee1c9cececdc08fc0c8"
+                                >
+                                    [email&nbsp;protected]
+                                </span>
+                            </a>{" "}
+                            or by post to 128 City Road, London, EC1V 2NX, United Kingdom.
+                            <br />
+                            You have the right to make a complaint at any time to the Information
+                            Commissioner’s Office (ICO), the UK supervisory authority for data
+                            protection issues (<a href="http://www.ico.org.uk">www.ico.org.uk</a>).
+                            We would, however, appreciate the chance to deal with your concerns
+                            before you approach the ICO so please contact us in the first instance.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>
+                                Processing data on behalf of a Controller and processors’
+                                responsibility to you
+                            </strong>
+                            <br />
+                            In discharging our responsibilities as a Data Controller we have
+                            employees who will deal with your data on our behalf (known as “
+                            <strong>Processors</strong>”). The responsibilities below may be
+                            assigned to an individual or may be taken to apply to the organisation
+                            as a whole. The Data Controller and our Processors have the following
+                            responsibilities:
+                            <ul role="list" className="my-4 text-gray-600">
+                                <li className="has-line-data">
+                                    Ensure that all processing of Personal Data is governed by one
+                                    of the legal bases laid out in the GDPR (see 2.2 below for more
+                                    information);
+                                </li>
+                                <li className="has-line-data">
+                                    Ensure that Processors authorised to process Personal Data have
+                                    committed themselves to confidentiality or are under an
+                                    appropriate statutory obligation of confidentiality;
+                                </li>
+                                <li className="has-line-data">
+                                    Implement appropriate technical and organisational measures to
+                                    ensure a level of security appropriate to the risk associated
+                                    with the processing of Personal Data;
+                                </li>
+                                <li className="has-line-data">
+                                    Obtain the prior specific or general authorisation of the
+                                    Controller before engaging another Processor;
+                                </li>
+                                <li className="has-line-data">
+                                    Assist the Controller in the fulfilment of the Controller’s
+                                    obligation to respond to requests for exercising the data
+                                    subject’s rights;
+                                </li>
+                                <li className="has-line-data">
+                                    Make available to the Controller all information necessary to
+                                    demonstrate compliance with the obligations laid down in the
+                                    GDPR and allow for and contribute to audits, including
+                                    inspections, conducted by the Controller or another auditor
+                                    mandated by the Controller;
+                                </li>
+                                <li className="has-line-data">
+                                    Maintain a record of all categories of processing activities
+                                    carried out on behalf of a Controller;
+                                </li>
+                                <li className="has-line-data">
+                                    Cooperate, on request, with the supervisory authority in the
+                                    performance of its tasks;
+                                </li>
+                                <li className="has-line-data">
+                                    Ensure that any person acting under the authority of the
+                                    Processor who has access to Personal Data does not process
+                                    Personal Data except on instructions from the Controller; and
+                                </li>
+                                <li className="has-line-data">
+                                    Notify the Controller without undue delay after becoming aware
+                                    of a Personal Data Breach.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ol start={2}>
+                        <li className="has-line-data">
+                            <strong>LEGAL BASIS FOR DATA COLLECTION</strong>
+                        </li>
+                    </ol>
+                    <ul role="list" className="my-4 text-gray-600">
+                        <li className="has-line-data">
+                            <strong>Types of data / Privacy policy scope</strong>
+                            <br />“<strong>Personal Data</strong>” means any information about an
+                            individual from which that person can be identified. It does not include
+                            data where the identity has been removed (anonymous data).
+                            <br />
+                            We may collect, use, store and transfer different kinds of Personal Data
+                            about you which we have grouped together below. Not all of the following
+                            types of data will necessarily be collected from you but this is the
+                            full scope of data that we collect and when we collect it from you:
+                            <ul role="list" className="my-4 text-gray-600">
+                                <li className="has-line-data">
+                                    Profile/Identity Data: This is data relating to your first name,
+                                    last name, gender, date of birth.
+                                </li>
+                                <li className="has-line-data">
+                                    Contact Data: This is data relating to your phone number,
+                                    addresses, email addresses, phone numbers.
+                                </li>
+                                <li className="has-line-data">
+                                    Marketing and Communications Data: This is your preferences in
+                                    receiving marketing information and other information from us.
+                                </li>
+                                <li className="has-line-data">
+                                    Transactional Data: This is information of details and records
+                                    of all payments you have made for our services or products.
+                                </li>
+                                <li className="has-line-data">
+                                    Technical Data: This is your IP address, browser type and
+                                    version, time zone setting and location, operating system and
+                                    platform, and other technology on the devices you use to engage
+                                    with us.
+                                </li>
+                                <li className="has-line-data">
+                                    Customer Support Data: This includes feedback and survey
+                                    responses.
+                                </li>
+                                <li className="has-line-data">
+                                    Usage Data: information about how you use our website, products
+                                    and services.
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="has-line-data">
+                            We do not collect any Special Categories of Personal Data about you
+                            (this includes details about your race or ethnicity, religious or
+                            philosophical beliefs, sex life, sexual orientation, political opinions,
+                            trade union membership, information about your health, and genetic and
+                            biometric data). Nor do we collect any information about criminal
+                            convictions and offences.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>The Legal Basis for Collecting That Data</strong>
+                            <br />
+                            There are a number of justifiable reasons under the GDPR that allow
+                            collection and processing of Personal Data. The main avenues we rely on
+                            are:
+                            <ul role="list" className="my-4 text-gray-600">
+                                <li className="has-line-data">
+                                    “<strong>Consent</strong>”: Certain situations allow us to
+                                    collect your Personal Data, such as when you tick a box that
+                                    confirms you are happy to receive email newsletters from us, or
+                                    ‘opt in’ to a service.
+                                </li>
+                                <li className="has-line-data">
+                                    “<strong>Contractual Obligations</strong>”: We may require
+                                    certain information from you in order to fulfil our contractual
+                                    obligations and provide you with the promised service.
+                                </li>
+                                <li className="has-line-data">
+                                    “<strong>Legal Compliance</strong>”: We’re required by law to
+                                    collect and process certain types of data, such as fraudulent
+                                    activity or other illegal actions.
+                                </li>
+                                <li className="has-line-data">
+                                    “<strong>Legitimate Interest</strong>”: We might need to collect
+                                    certain information from you to be able to meet our legitimate
+                                    interests - this covers aspects that can be reasonably expected
+                                    as part of running our business, that will not have a material
+                                    impact on your rights, freedom or interests. Examples could be
+                                    your address, so that we know where to deliver something to, or
+                                    your name, so that we have a record of who to contact moving
+                                    forwards.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ol start={3}>
+                        <li className="has-line-data">
+                            <strong>HOW WE USE YOUR PERSONAL DATA</strong>
+                        </li>
+                    </ol>
+                    <ul role="list" className="my-4 text-gray-600">
+                        <li className="has-line-data">
+                            <strong>Our data uses</strong>
+                            <br />
+                            We will only use your Personal Data when the law allows us to.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>Marketing and content updates</strong>
+                            <br />
+                            You will receive marketing and new content communications from us if you
+                            have created an account and chosen to opt into receiving those
+                            communications. From time to time we may make suggestions and
+                            recommendations to you about goods or services that may be of interest
+                            to you.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>Change of purpose</strong>
+                            <br />
+                            We will only use your Personal Data for the purposes for which we
+                            collected it, unless we reasonably consider that we need to use it for
+                            another reason and that reason is compatible with the original purpose.
+                            If you wish to get an explanation as to how the processing for the new
+                            purpose is compatible with the original purpose, please contact us.
+                            <br />
+                            If we need to use your Personal Data for an unrelated purpose, we will
+                            notify you and we will explain the legal basis which allows us to do so.
+                            <br />
+                            Please note that we may process your Personal Data without your
+                            knowledge or consent, in compliance with the above rules, where this is
+                            required or permitted by law.
+                        </li>
+                    </ul>
+                    <ol start={4}>
+                        <li className="has-line-data">
+                            <strong>YOUR RIGHTS AND HOW YOU ARE PROTECTED BY US</strong>
+                        </li>
+                    </ol>
+                    <ul role="list" className="my-4 text-gray-600">
+                        <li className="has-line-data">
+                            <strong>Your legal rights</strong>
+                            <br />
+                            Under certain circumstances, you have the following rights under data
+                            protection laws in relation to your personal data:
+                            <ul role="list" className="my-4 text-gray-600">
+                                <li className="has-line-data">
+                                    <strong>Right to be informed</strong>. You have a right to be
+                                    informed about our purposes for processing your personal data,
+                                    how long we store it for, and who it will be shared with. We
+                                    have provided this information to you in this policy.
+                                </li>
+                                <li className="has-line-data">
+                                    <strong>Right of access</strong>. This enables you to receive a
+                                    copy of the personal data we hold about you and to check that we
+                                    are lawfully processing it (also known as a “data subject access
+                                    request”). See section 4.5 below for more details on how you can
+                                    make a data subject access request.
+                                </li>
+                                <li className="has-line-data">
+                                    <strong>Right to rectification</strong>. You have a right to
+                                    request correction of the personal data that we hold about you.
+                                    This enables you to have any incomplete or inaccurate data we
+                                    hold about you corrected, though we may need to verify the
+                                    accuracy of the new data you provide to us.
+                                </li>
+                                <li className="has-line-data">
+                                    <strong>Right to erasure</strong>. You have the right to ask us
+                                    to delete or remove personal data where there is no good reason
+                                    for us continuing to process it, where you have successfully
+                                    exercised your right to object to processing (see below), where
+                                    we may have processed your information unlawfully or where we
+                                    are required to erase your personal data to comply with local
+                                    law. Note, however, that we may not always be able to comply
+                                    with your request of erasure for specific legal reasons which
+                                    will be notified to you, if applicable, at the time of your
+                                    request.
+                                </li>
+                                <li className="has-line-data">
+                                    <strong>Right to object</strong>. You can object to the
+                                    processing of personal data we hold about you. This effectively
+                                    allows you to stop or prevent us from processing your personal
+                                    data. Note that this is not an absolute right and it only
+                                    applies in certain circumstances, for example:
+                                    <ul role="list" className="my-4 text-gray-600">
+                                        <li className="has-line-data">
+                                            Where we are processing your personal data for direct
+                                            marketing purposes.
+                                        </li>
+                                        <li className="has-line-data">
+                                            Where we are relying on a legitimate interest (or those
+                                            of a third party) and there is something about your
+                                            particular situation which makes you want to object to
+                                            processing on this ground as you feel it impacts on your
+                                            fundamental rights and freedoms.
+                                        </li>
+                                        <li className="has-line-data">
+                                            In some cases, we may continue processing your data if
+                                            we can demonstrate that we have compelling legitimate
+                                            grounds to process your information which override your
+                                            rights and freedoms.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="has-line-data">
+                                    <strong>Right to restrict processing</strong>. You have the
+                                    right to request the restriction or suppression of their
+                                    personal data. Note that this is not an absolute right and it
+                                    only applies in certain circumstances:
+                                    <ul role="list" className="my-4 text-gray-600">
+                                        <li className="has-line-data">
+                                            If you want us to establish the data’s accuracy.
+                                        </li>
+                                        <li className="has-line-data">
+                                            Where our use of the data is unlawful but you do not
+                                            want us to erase it.
+                                        </li>
+                                        <li className="has-line-data">
+                                            Where you need us to hold the data even if we no longer
+                                            require it as you need it to establish, exercise or
+                                            defend legal claims.
+                                        </li>
+                                        <li className="has-line-data">
+                                            You have objected to our use of your data but we need to
+                                            verify whether we have overriding legitimate grounds to
+                                            use it.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="has-line-data">
+                                    <strong>Right to data portability</strong>. You have the right
+                                    to request the transfer of your personal data to you or to a
+                                    third party. If you make such a request, we will provide to you,
+                                    or a third party you have chosen, your personal data in a
+                                    structured, commonly used, machine-readable format. Note that
+                                    this right only applies to automated information which you
+                                    initially provided consent for us to use or where we used the
+                                    information to perform a contract with you.
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="has-line-data">
+                            If you wish to make a request under any of these rights, please contact
+                            us at <span className="__cf_email__">[email&nbsp;protected]</span>.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>
+                                Your control over Hoola Technology Limited’s use of your Personal
+                                Data
+                            </strong>
+                            <br />
+                            You may delete your account at any time – this will remove your account
+                            page from our systems and our related software.
+                            <br />
+                            We guarantee this will delete all stored data.
+                            <br />
+                            You can access information associated with your account by logging into
+                            your account you created with us.
+                            <br />
+                            Your account information will be protected by a password for your
+                            privacy and security. You need to prevent unauthorized access to your
+                            account and personal information by selecting and protecting your
+                            password appropriately and limiting access to your computer or device
+                            and by signing off after you have finished accessing your account.
+                            <br />
+                            <em>
+                                California Privacy Rights: Under California Civil Code sections
+                                1798.83-1798.84, California residents are entitled to ask us for a
+                                notice identifying the categories of personal customer information
+                                which we share with our affiliates and/or third parties for
+                                marketing purposes, and providing contact information for such
+                                affiliates and/or third parties. If you are a California resident
+                                and would like a copy of this notice, please submit a written
+                                request to{" "}
+                                <span className="__cf_email__">[email&nbsp;protected]</span>.
+                            </em>
+                        </li>
+                        <li className="has-line-data">
+                            <strong>
+                                How Hoola Technology Limited protects customers’ Personal Data
+                            </strong>
+                            <br />
+                            We are concerned with keeping your data secure and protecting it from
+                            inappropriate disclosure. We implement a variety of security measures to
+                            ensure the security of your Personal Data on our systems, including
+                            adopting a secure protocol and encrypting our databases. Any Personal
+                            Data collected by us is only accessible by a limited number of employees
+                            who have special access rights to such systems and are bound by
+                            obligations of confidentiality. If and when we use subcontractors to
+                            store your data, we will not relinquish control of your Personal Data or
+                            expose it to security risks that would not have arisen had the data
+                            remained in our possession. However, unfortunately no transmission of
+                            data over the internet is guaranteed to be completely secure. It may be
+                            possible for third parties not under the control of Hoola Technology
+                            Limited to intercept or access transmissions or private communications
+                            unlawfully. While we strive to protect your Personal Data, we cannot
+                            ensure or warrant the security of any Personal Data you transmit to us.
+                            Any such transmission is done at your own risk. If you believe that your
+                            interaction with us is no longer secure, please contact us.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>Opting out of marketing promotions</strong>
+                            <br />
+                            You can ask us to stop sending you marketing messages at any time by
+                            clicking the unsubscribe link at the bottom of our marketing emails.
+                            <br />
+                            Where you opt out of receiving these marketing messages, we will
+                            continue to retain other Personal Data provided to us as a result of
+                            interactions with us not related to your marketing preferences.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>
+                                How to request your data and the process for obtaining it
+                            </strong>
+                            <br />
+                            You will not have to pay a fee to access your Personal Data (or to
+                            exercise any of the other rights). However, if your request is clearly
+                            unfounded, we could refuse to comply with your request.
+                            <br />
+                            We may need to request specific information from you to help us confirm
+                            your identity and ensure you have the right to access your Personal Data
+                            (or to exercise any of your other rights). This is a security measure to
+                            ensure that Personal Data is not disclosed to any person who has no
+                            right to receive it. We may also contact you to ask you for further
+                            information in relation to your request to speed up our response.
+                        </li>
+                    </ul>
+                    <ol start={5}>
+                        <li className="has-line-data">
+                            <strong>YOUR DATA AND THIRD PARTIES</strong>
+                        </li>
+                    </ol>
+                    <ul role="list" className="my-4 text-gray-600">
+                        <li className="has-line-data">
+                            <strong>Sharing your data with third parties</strong>
+                            <br />
+                            We may also share Personal Data with interested parties in the event
+                            that Hoola Technology Limited anticipates a change in control or the
+                            acquisition of all or part of our business or assets or with interested
+                            parties in connection with the licensing of our technology.
+                            <br />
+                            If Hoola Technology Limited is sold or makes a sale or transfer, we may,
+                            in our sole discretion, transfer, sell or assign your Personal Data to a
+                            third party as part of or in connection with that transaction. Upon such
+                            transfer, the Privacy Policy of the acquiring entity may govern the
+                            further use of your Personal Data. In all other situations your data
+                            will still remain protected in accordance with this Privacy Policy (as
+                            amended from time to time).
+                            <br />
+                            We may share your Personal Data at any time if required for legal
+                            reasons or in order to enforce our terms or this Privacy Policy.
+                        </li>
+                    </ul>
+                    <ol start={6}>
+                        <li className="has-line-data">
+                            <strong>HOW LONG WE RETAIN YOUR DATA</strong>
+                            <br />
+                            We will only retain your Personal Data for as long as reasonably
+                            necessary to fulfil the purposes we collected it for. We may retain your
+                            Personal Data for a longer period than usual in the event of a complaint
+                            or if we reasonably believe there is a prospect of litigation in respect
+                            to our relationship with you.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>AGE LIMIT FOR OUR USERS</strong>
+                            <br />
+                            You must not use Hoola Technology Limited unless you are aged 18 or
+                            older. If you are under 18 and you access Hoola Technology Limited by
+                            lying about your age, you must immediately stop using Hoola Technology
+                            Limited.
+                            <br />
+                            This website is not intended for children and we do not knowingly
+                            collect data relating to children.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>INTERNATIONAL TRANSFER OF DATA</strong>
+                            <br />
+                            Your information may be stored and processed in the US or other
+                            countries or jurisdictions outside the US where Hoola Technology Limited
+                            has facilities. By using Hoola Technology Limited, you are permitting
+                            and consenting to the transfer of information, including Personal Data,
+                            outside of the US.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>NOTIFICATION OF CHANGES AND ACCEPTANCE OF POLICY</strong>
+                            <br />
+                            We keep our Privacy Policy under review and will place any updates here.
+                            This version is dated 1 July 2024.
+                            <br />
+                            By using Hoola Technology Limited, you consent to the collection and use
+                            of data by us as set out in this Privacy Policy. Continued access or use
+                            of Hoola Technology Limited will constitute your express acceptance of
+                            any modifications to this Privacy Policy.
+                        </li>
+                        <li className="has-line-data">
+                            <strong>INTERPRETATION</strong>
+                            <br />
+                            All uses of the word “including” mean “including but not limited to” and
+                            the enumerated examples are not intended to in any way limit the term
+                            which they serve to illustrate. Any email addresses set out in this
+                            policy may be used solely for the purpose for which they are stated to
+                            be provided, and any unrelated correspondence will be ignored. Unless
+                            otherwise required by law, we reserve the right to not respond to
+                            emails, even if they relate to a legitimate subject matter for which we
+                            have provided an email address. You are more likely to get a reply if
+                            your request or question is polite, reasonable and there is no
+                            relatively obvious other way to deal with or answer your concern or
+                            question (e.g. FAQs, other areas of our website, etc.).
+                            <br />
+                            Our staff are not authorised to contract on behalf of Hoola Technology
+                            Limited, waive rights or make representations (whether contractual or
+                            otherwise). If anything contained in an email from a Hoola Technology
+                            Limited address contradicts anything in this policy, our terms or any
+                            official public announcement on our website, or is inconsistent with or
+                            amounts to a waiver of any Hoola Technology Limited rights, the email
+                            content will be read down to grant precedence to the latter. The only
+                            exception to this is genuine correspondence expressed to be from the
+                            Hoola Technology Limited legal department.
+                        </li>
+                    </ol>
+                </div>
             </span>
         </div>
     </Body>

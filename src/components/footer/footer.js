@@ -7,6 +7,8 @@ import ContentContainer from "../ui/content-container";
 import mq from "../utils/breakpoints";
 import theme from "../utils/theme";
 import EmailIcon from "./assets/contact-icon.svg";
+import GithubIcon from "./assets/github-icon.svg";
+import LinkedInIcon from "./assets/linkedin-icon.svg";
 import logo from "./assets/logo.png";
 import TwitterIcon from "./assets/twitter-icon.svg";
 import FooterMenu from "./footerMenu";
@@ -54,7 +56,7 @@ const textRight = css(
 const Logo = styled("img")(
     {
         height: "32px",
-        width: "auto"
+        width: "auto",
     },
     mq({
         margin: ["0 auto 30px auto", "0 auto 30px auto", "0 0 25px 0"],
@@ -133,8 +135,43 @@ const Footer = () => (
                                 <img src={EmailIcon} alt="" />
                             </a>
                         </IconItem>
+                        <IconItem>
+                            <a
+                                title="LinkedIn"
+                                href="https://www.linkedin.com/company/hoola-ai"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img src={LinkedInIcon} alt="" />
+                            </a>
+                        </IconItem>
+                        <IconItem>
+                            <a
+                                title="Github"
+                                href="https://github.com/hoola-tech"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <img src={GithubIcon} alt="" />
+                            </a>
+                        </IconItem>
                     </IconList>
-                    <Paragraph>Hoola Technology Ltd © {new Date().getFullYear()}</Paragraph>
+                    <Paragraph>
+                        <div
+                            style={{
+                                lineHeight: 1.2,
+                            }}
+                        >
+                            Hoola
+                            <sup>
+                                <small>TM</small>
+                            </sup>{" "}
+                            is a registered trademark of Hoola Technology Limited, company number
+                            12584434 registered in England & Wales.
+                        </div>
+                    </Paragraph>
+                    <Paragraph>128 City Road, London EC1V 2NX</Paragraph>
+                    <Paragraph>© {new Date().getFullYear()}</Paragraph>
                 </Box>
                 <Box className={textRight}>
                     <Newsletter />

@@ -96,10 +96,10 @@ const FooterMenu = () => (
             <Link rel="prerender" to="#">
                 Press
             </Link>
-            <Link rel="prerender" to="#">
+            <Link rel="prerender" to="/terms">
                 Terms of Service
             </Link>
-            <Link rel="prerender" to="#">
+            <Link rel="prerender" to="/privacy">
                 Privacy Policy
             </Link>
         </MenuBlock>

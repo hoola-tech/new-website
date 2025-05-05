@@ -1,13 +1,15 @@
-import React from "react";
-import Helmet from "react-helmet";
-import Head from "./components/head";
-import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
-import CookieNotice from "../components/ui/cookie-notice";
-import { ModalProvider } from "../components/ui/layout/video-modal";
-import Chat from "./components/chat";
 import "./index.css";
 import "./reset.css";
+
+import React from "react";
+
+import Helmet from "react-helmet";
+
+import Footer from "../components/footer/footer";
+import Header from "../components/header/header";
+import CookieNotice from "../components/ui/cookie-notice";
+import { ModalProvider } from "../components/ui/layout/video-modal";
+import Head from "./components/head";
 
 class BaseLayout extends React.Component {
     render() {
@@ -35,13 +37,6 @@ class BaseLayout extends React.Component {
             })(window,document.documentElement,'async-hide','dataLayer',1000,
             {'GT':true});
           `}
-                    </script>
-                </Helmet>
-                <Helmet>
-                    <script type="text/javascript">
-                        {`
-                        window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};   
-                        `}
                     </script>
                 </Helmet>
                 <ModalProvider>
