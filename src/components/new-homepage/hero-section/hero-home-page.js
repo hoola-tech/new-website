@@ -12,7 +12,7 @@ const HeroHomePage = () => {
     const el = React.useRef(null);
     React.useEffect(() => {
       const typed = new Typed(el.current, {
-        strings: ['Financial Research', 'Financial Analysts', 'Investment', 'Investment Research'],
+        strings: ['Investment Research', 'Equity Analysts', 'Equity Associates', 'Portfolio Managers' ],
         typeSpeed: 200,
         backSpeed: 50,
         loop: true,
@@ -39,7 +39,7 @@ const HeroHomePage = () => {
                 <>
                     {" "}
                     <Bold>Hoola</Bold> is an {" "}
-                    <Bold>AI-powered research workspace</Bold> designed for institutional investors who demand <Bold>accuracy</Bold>, <Bold>transparency</Bold>, and <Bold>control</Bold>.
+                    <Bold>AI-powered research workspace</Bold> designed to save institutional investors <Bold>hours of time</Bold> preparing <Bold>investment research</Bold>.
                 </>
             }
             codeFieldText="Hoola AI"

@@ -67,12 +67,12 @@ export const CodeSectionDescription = styled.div(
 );
 
 export const CodeSectionLabel = styled.div({
-    backgroundColor: "#00CCB01A",
+    backgroundColor: "#fa5a281A",
     fontWeight: 600,
     fontSize: "14px",
     lineHeight: "18px",
     textTransform: "uppercase",
-    color: "#00CCB0",
+    color: "#fa5a28",
     display: "inline-block",
     padding: "4px 16px",
     borderRadius: "6px",
@@ -87,7 +87,7 @@ export const CodeSectionTitle = styled.div({
     textAlign: "center",
 
     "& span": {
-        color: "#00CCB0",
+        color: "#fa5a28",
     },
 });
 
@@ -161,7 +161,7 @@ export const CodeSectionTabs = styled.div(
         },
 
         "& .isActiveTab": {
-            borderBottom: "2px solid #00CCB0 !important",
+            borderBottom: "2px solid #fa5a28 !important",
         },
     },
     mq({
@@ -209,7 +209,7 @@ export const FrameLink = styled.div({
     fontWeight: "bold",
     fontSize: "18px",
     lineHeight: "26px",
-    color: "#00CCB0",
+    color: "#fa5a28",
     marginTop: "20px",
 
     "& a": {
