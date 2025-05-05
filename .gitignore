@@ -95,7 +95,15 @@ dist
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
-public
+public/**
+
+!public/**/logo.png
+!public/**/icon.png
+!public/**/alt.png
+!public/**/icon.jpg
+!public/**/index.html
+!public/**/robots.txt
+
 
 # vuepress build output
 .vuepress/dist
