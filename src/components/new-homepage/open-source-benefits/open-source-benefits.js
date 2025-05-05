@@ -131,7 +131,7 @@ const OpenSourceBenefits = () => {
             <CodeSection>
                 <CodeSectionDescription>
                     <CodeSectionTitle>
-                        Put the <span>power of Hoola AI to </span> work across your investment
+                        Put the <span>power of Hoola AI </span> to work across your investment
                         process
                     </CodeSectionTitle>
                     <P>
