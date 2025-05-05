@@ -91,7 +91,7 @@ export const PRODUCTS_MENU = {
 export const PRICING_MENU = {
     id: 2,
     label: "Pricing",
-    link: "/",
+    link: "https://studio.hoola.ai",
 };
 
 export const RESOURCES_MENU = {
@@ -105,19 +105,19 @@ export const RESOURCES_MENU = {
             {
                 id: 0,
                 label: "Privacy Policy",
-                link: "https://www.hoola.ai/privacy-policy",
+                link: "/privacy",
                 image: SlackIcon,
             },
             {
                 id: 1,
                 label: "Terms of Service",
-                link: "https://hoole.ai/terms-of-service",
+                link: "/terms",
                 image: GitHubIcon,
             },
             {
                 id: 2,
                 label: "About Us",
-                link: "/about-us",
+                link: "/",
                 image: BlogIcon,
             },
             {

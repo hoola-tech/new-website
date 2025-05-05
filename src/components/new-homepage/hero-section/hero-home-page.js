@@ -11,20 +11,25 @@ import {
 const HeroHomePage = () => {
     const el = React.useRef(null);
     React.useEffect(() => {
-      const typed = new Typed(el.current, {
-        strings: ['Investment Research', 'Equity Analysts', 'Equity Associates', 'Portfolio Managers' ],
-        typeSpeed: 200,
-        backSpeed: 50,
-        loop: true,
-        fadeOut: true,
-      });
-  
-      return () => {
-        // Destroy Typed instance during cleanup to stop animation
-        typed.destroy();
-      };
+        const typed = new Typed(el.current, {
+            strings: [
+                "Investment Research Teams",
+                "Equity Analysts",
+                "Equity Associates",
+                "Portfolio Managers",
+            ],
+            typeSpeed: 200,
+            backSpeed: 50,
+            loop: true,
+            fadeOut: true,
+        });
+
+        return () => {
+            // Destroy Typed instance during cleanup to stop animation
+            typed.destroy();
+        };
     }, []);
-  
+
     return (
         <HeroComponent
             buttonTopLink="https://studio.hoola.ai"
@@ -32,14 +37,18 @@ const HeroHomePage = () => {
             title={
                 <>
                     Purpose-Built AI for{" "}
-                    <OrangeText><span ref={el} /></OrangeText> Teams
+                    <br />
+                    <OrangeText>
+                        <span ref={el} />
+                    </OrangeText>
                 </>
             }
             subTitle={
                 <>
                     {" "}
-                    <Bold>Hoola</Bold> is an {" "}
-                    <Bold>AI-powered research workspace</Bold> designed to save institutional investors <Bold>hours of time</Bold> preparing <Bold>investment research</Bold>.
+                    <Bold>Hoola</Bold> is an <Bold>AI-powered workspace</Bold> designed to
+                    save institutional investors <Bold>hours of time</Bold> preparing{" "}
+                    <Bold>investment research</Bold>.
                 </>
             }
             codeFieldText="Hoola AI"
