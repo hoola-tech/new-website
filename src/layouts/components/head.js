@@ -1,6 +1,8 @@
 import React from "react";
-import Helmet from "react-helmet";
+
 import { withPrefix } from "gatsby-link";
+import Helmet from "react-helmet";
+
 import ogImageDefault from "../assets/webiny-social-share.jpg";
 
 class Head extends React.Component {
@@ -84,23 +86,23 @@ class Head extends React.Component {
                     <link
                         rel="apple-touch-icon"
                         sizes="180x180"
-                        href="/favicons/apple-touch-icon.png"
+                        href="/icon.png"
                     />
                     <link
                         rel="icon"
                         type="image/png"
                         sizes="32x32"
-                        href="/favicons/favicon-32x32.png"
+                        href="/icon.png"
                     />
                     <link
                         rel="icon"
                         type="image/png"
                         sizes="16x16"
-                        href="/favicons/favicon-16x16.png"
+                        href="/icon.png"
                     />
                     <link rel="manifest" href="/favicons/site.webmanifest" />
-                    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#d76543" />
-                    <link rel="shortcut icon" href="/favicons/favicon.ico" />
+                    <link rel="mask-icon" href="/icon.png" color="#d76543" />
+                    <link rel="shortcut icon" href="/icon.png" />
                     <meta name="msapplication-TileColor" content="#603cba" />
                     <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
                     <meta name="theme-color" content="#ffffff" />

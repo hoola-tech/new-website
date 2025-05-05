@@ -91,7 +91,7 @@ export const PRODUCTS_MENU = {
 export const PRICING_MENU = {
     id: 2,
     label: "Pricing",
-    link: "/pricing",
+    link: "/",
 };
 
 export const RESOURCES_MENU = {
